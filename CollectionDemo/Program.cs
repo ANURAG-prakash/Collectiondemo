@@ -13,8 +13,8 @@ namespace collectionDemo
         {
             Console.WriteLine("\nIn DoSetDemo");
             var set = new HashSet<string>();
-            set.Add("Amit");
-            set.Add("Sumit");
+            set.Add("Anurag");
+            set.Add("Raj");
             set.Add("Aman");
             set.Add("Naman");
             HashSet<string>.Enumerator enumerator = set.GetEnumerator();
@@ -28,9 +28,9 @@ namespace collectionDemo
         {
             Queue<string> queue = new Queue<string>();
             Dictionary<int, string> dictionary = new Dictionary<int, string>();
-            queue.Enqueue("Amit Rana");
-            queue.Enqueue("Sumit Semwal");
-            queue.Enqueue("Aman Rawat");
+            queue.Enqueue("Anurag Prakash");
+            queue.Enqueue("raj singh");
+            queue.Enqueue("Aman Ram");
             Console.WriteLine("head::" + queue.Peek());
             Console.WriteLine("\n Iterating the queue elements::");
             foreach (var element in queue)
@@ -51,8 +51,8 @@ namespace collectionDemo
         {
             Console.WriteLine("/n In DoDictionaryDemo");
             Dictionary<int, string> dictionary = new Dictionary<int, string>();
-            dictionary.Add(100, "amit");
-            dictionary.Add(101, "sumit");
+            dictionary.Add(100, "anurag");
+            dictionary.Add(101, "shanu");
             dictionary.Add(102, "aman");
             Console.WriteLine("Acces value using key::" + dictionary[100]);
             Console.WriteLine("\n Iterating Dictionary");
@@ -66,9 +66,9 @@ namespace collectionDemo
         {
             Console.WriteLine("\n DoStackDemo");
             Stack<string> stack = new Stack<string>();
-            stack.Push("Amit");
-            stack.Push("aman");
-            stack.Push("sumit");
+            stack.Push("Anurag");
+            stack.Push("akash");
+            stack.Push("shanu");
             stack.Push("naman");
             string pop = stack.Pop();
             foreach (var element in stack)
@@ -82,7 +82,7 @@ namespace collectionDemo
             Console.WriteLine("\n DolistDemo");
             List<string> list = new List<string>();
             list.Add("sumit");
-            list.Add("amitaman");
+            list.Add("anurag");
             list.Add("raam");
             list.Add("namn");
             foreach (var element in list)
